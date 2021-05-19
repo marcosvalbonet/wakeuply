@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#888888</color>
+    <color name="soft_grey">#cccccc</color>
+    <color name="burdeux">#5F021F</color>
+    <color name="soft_blue">#003366</color>
+    <color name="soft_gray">#232323</color>
+    <color name="e5e5e5">#e5e5e5</color>
+    <color name="f3f3f3">#f3f3f3</color>
+    <color name="bgcolor">#34689a</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorStoryUserName">#FFFFFF</color>
+    <color name="colorStoryDescription">#FFFFFF</color>
+    <color name="colorAudioTitle">#FFFFFF</color>
+    <color name="colorMediaOptions">#FFFFFF</color>
+
+    <item name="teal" type="color">#26a69a</item>
+
+    <item name="pink" type="color">#f06292</item>
+    <item name="purple" type="color">#ba68c8</item>
+    <item name="deep_purple" type="color">#9575cd</item>
+    <item name="indigo" type="color">#7986cb</item>
+
+    <item name="light_blue" type="color">#039be5</item>
+    <item name="cyan" type="color">#00acc1</item>
+
+    <item name="light_green" type="color">#689f38</item>
+    <item name="orange" type="color">#f57c00</item>
+    <item name="deep_orange" type="color">#ff5722</item>
+    <item name="brown" type="color">#a1887f</item>
+
+    <item name="blue_grey" type="color">#78909c</item>
+    <item name="notification_color" type="color">#1e88e5</item>
+    <item name="card_view_black" type="color">#292929</item>
+    <item name="card_view_white" type="color">#FFFFFF</item>
+</resources>

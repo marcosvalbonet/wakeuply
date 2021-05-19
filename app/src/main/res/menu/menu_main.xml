@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/tools">
+
+  <item
+      android:id="@+id/menu_item_new"
+      android:title="@string/menu_item_new"
+      android:orderInCategory="1">
+  </item>
+  <!--<item
+      android:id="@+id/menu_item_website"
+      android:icon="@drawable/glyphicons_340_globe"
+      android:orderInCategory="8"
+      android:title="@string/menu_item_website">
+  </item>-->
+  <item
+      android:id="@+id/action_app_settings"
+      android:title="@string/app_settings"
+      android:orderInCategory="5"
+      app:showAsAction="never"
+      />
+
+  <item
+      android:id="@+id/action_app_share"
+      android:title="@string/app_share"
+      android:orderInCategory="6"
+      app:showAsAction="never"
+      />
+
+  <item
+      android:id="@+id/action_app_premium"
+      android:title="@string/app_premium"
+      android:orderInCategory="7"
+      app:showAsAction="never"
+      />
+
+</menu>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+
+    <!-- Math Alarm Activity -->
+    <string name="app_name">Wakeup.ly</string>
+    <string name = "title_activity_set_alarms">अलार्म सेट करें</string>
+    <string name = "no_alarms">कोई अलार्म सेट नहीं किया गया है</string>
+
+    <string name = "button_new">नया</string>
+
+    <!-- Menu -->
+
+    <string name = "menu_item_new">नया अलार्म</string>
+    <string name = "menu_item_save">सहेजें</string>
+    <string name = "menu_item_delete">रद्द करें</string>
+    <string name = "menu_item_userguide">उपयोगकर्ता गाइड</string>
+    <string name = "menu_item_awards">पुरस्कार</string>
+    <string name = "menu_item_gains">Gains</string>
+    <string name = "menu_item_last_spot">अंतिम स्थान</string>
+    <string name = "menu_item_rate">Google Play पर रेट करें</string>
+    <string name = "menu_item_website">वेबसाइट</string>
+    <string name = "menu_item_report">बग की रिपोर्ट करें</string>
+    <string name = "menu_item_session_out">सत्र बंद करें</string>
+
+    <!-- Alert -->
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="decimal_button_text">,</string>
+    <string name="clear_button_text">Clear</string>
+    <string name="minus_button_text">-</string>
+
+
+    <color name="title_background_color">#000000</color>
+
+    <string name = "button_delete">हटाएँ</string>
+    <string name = "ok">OK</string>
+    <string name = "cancel">रद्द करें</string>
+
+    <string name = "userinfobutton">Siguiente</string>
+
+    <string name = "alarm_with_ads">विज्ञापनों के साथ अलार्म</string>
+    <string name = "alarm_with_ads_message">आप नीचे विज्ञापन देख सकते हैं</string>
+    <string name = "alarm_without_ads">विज्ञापनों के बिना अलार्म</string>
+    <string name = "alarm_without_ads_message">हमें जल्द ही और विज्ञापन आने की उम्मीद है</string>
+    <string name = "publicity">प्रचार</string>
+
+
+    <!-- Settings panel -->
+    <string name="MON">M</string>
+    <string name="TUE">T</string>
+    <string name="WED">W</string>
+    <string name="THU">T</string>
+    <string name="FRI">F</string>
+    <string name="SAT">S</string>
+    <string name="SUN">S</string>
+
+    <!-- Rate this app -->
+    <string name = "rta_dialog_title">इस ऐप को रेट करें</string>
+    <string name = "rta_dialog_message">यदि आप इस ऐप का उपयोग करके आनंद लेते हैं, तो क्या आप इसे रेट करने में एक पल का समय लेंगे? यह एक मिनट से अधिक समय तक नहीं जीता। आपके समर्थन के लिए धन्यवाद!</string>
+    <string name = "rta_dialog_ok">अभी रेट करें</string>
+    <string name = "rta_dialog_cancel">बाद में</string>
+    <string name = "rta_dialog_no">नहीं, धन्यवाद</string>
+
+
+    <!-- Alarm on app -->
+    <string name="create_alarm">अलार्म बनाएँ</string>
+   <string name = "add_alarm">अलार्म जोड़ें</string>
+   <string name = "default_settings">डिफ़ॉल्ट अलार्म सेटिंग</string>
+   <string name = "app_settings">Settings</string>
+   <string name = "app_share">शेयर</string>
+   <string name = "app_premium">प्रीमियम</string>
+   <string name = "app_share_msg">क्या आप हर दिन अपने पसंदीदा TikTok वीडियो के साथ उठना चाहेंगे? इस ऐप का परीक्षण करें: https://goo.gl/dFbD6c</string>
+   <string name = "delete_all">सभी हटाएँ</string>
+   <string name = "settings">Settings</string>
+   <string name = "time">समय</string>
+   <string name="label">लेबल</string>
+   <string name = "alarm_label">अलार्म लेबल</string>
+   <string name = "none">कोई नहीं</string>
+   <string name = "repeat">दोहराएँ</string>
+   <string name="scheduled_days">अनुसूचित दिन</string>
+   <string name = "tone">टोन</string>
+   <string name = "alarm_tone">अलार्म टोन</string>
+   <string name = "snooze_minutes">स्नूज़ (मिनट)</string>
+   <string name = "vibrate">कंपन</string>
+   <string name = "enabled">सक्षम</string>
+   <string name = "disabled">अक्षम</string>
+   <string name = "alarm_volume">अलार्म वॉल्यूम</string>
+   <string name = "alarm_fade">अलार्म वॉल्यूम फीका</string>
+   <string name = "fade_description">% 1 $ d %% से% 2 $ d %%%% से अधिक $ d सेकंड।</string>
+   <string name = "unknown_name">अज्ञात नाम</string>
+   <string name = "volume_start">प्रारंभ मात्रा (प्रतिशत)</string>
+   <string name = "volume_end">अंतिम वॉल्यूम (प्रतिशत)</string>
+   <string name = "volume_duration">फीका अवधि (सेकंड)</string>
+
+
+    <string name = "delete">Delete</string>
+    <string name = "confirm_delete">डिलीट की पुष्टि करें?</string>
+    <string name = "snooze">SNOOZE</string>
+    <string name = "dismiss">DISMISS</string>
+    <string name = "close">बंद करें</string>
+    <string name = "plus_five">+ 5</string>
+    <string name = "minus_five">- 5</string>
+    <string name = "next_alarm">अगला अलार्म:</string>
+    <string name = "no_pending_alarms">कोई लंबित अलार्म नहीं</string>
+    <string name = "alarm_has_occurred">अलार्म हुआ</string>है
+    <string name = "day">% d day</string>
+    <string name = "days">% d days</string>
+    <string name = "hour">% d hour</string>
+    <string name="hours">%d hours</string>
+    <string name="minute">%d minute</string>
+    <string name="minutes">%d minutes</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="dow_sun_short">Su</string>
+    <string name="dow_mon_short">Mo</string>
+    <string name="dow_tue_short">Tu</string>
+    <string name="dow_wed_short">We</string>
+    <string name="dow_thu_short">Th</string>
+    <string name="dow_fri_short">Fr</string>
+    <string name="dow_sat_short">Sa</string>
+     <string name = "dow_sun">रविवार</string>
+     <string name = "dow_mon">मंडे</string>
+     <string name = "dow_tue">मंगलवार</string>
+     <string name = "dow_wed">बुधवार</string>
+     <string name = "dow_thu">गुरुवार</string>
+     <string name = "dow_fri">शुक्रवार</string>
+     <string name = "dow_sat">Saturday</string>
+    <string name="no_repeats">No repeats</string>
+    <string name="everyday">Every day</string>
+    <string name="weekdays">Weekdays</string>
+    <string name="weekends">Weekends</string>
+    <string name="debug_mode_title">Debug Mode</string>
+    <string name="debug_mode_summary">Turn on various debugging features</string>
+    <string name="debug_default">Default</string>
+    <string name="debug_on">On</string>
+    <string name="debug_off">Off</string>
+    <string name="notification_icon_title">Display notification icon</string>
+    <string name="notification_icon_on">Display an icon when there are pending alarms</string>
+    <string name="notification_icon_off">Do not display an icon when there are pending alarms</string>
+    <string name="lock_screen_title">Lock screen text</string>
+    <string name="lock_screen_summary">Configure alarm information displayed on the lock screen</string>
+    <string name="lock_screen_countdown">Countdown</string>
+    <string name="lock_screen_time">Alarm time</string>
+    <string name="lock_screen_both">Both</string>
+    <string name="lock_screen_custom">Custom</string>
+    <string name="lock_screen_nothing">Nothing</string>
+    <string name="internal">Internal</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="selected">Selected:</string>
+    <string name="custom_lock_screen_text">Custom lock screen text</string>
+    <string name="custom_lock_screen_description" formatted="false">This is the text that will display on the lock screen.  In your text, you may use the string %c to display the count down time and/or the string %t to display the alarm time.\nExample: Hello %t\nWould appear as: Hello 8:00 am\nIf the \'Persistent\' box is checked.  The string will remain on the lock screen even when no alarm is scheduled.</string>
+    <string name="custom_lock_screen_persistent">Persistent</string>
+    <string name="time_out_title">Alarm time out</string>
+    <string name="time_out_error">WARNING: This alarm has timed out waiting for an acknowledgment.</string>
+    <string name="time_out_summary">A firing alarm will be automatically dismissed after this many minutes.</string>
+    <string name="pending_alarms">Pending Alarms</string>
+    <string name="test_alarm">Test Alarm</string>
+    <string name="app_theme_title">Appearance</string>
+    <string name="app_theme_summary">Change the app colors</string>
+    <string name="themes">Themes</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="dark_light">Dark Light</string>
+    <string name="read_external_storage_title">Read files</string>
+    <string name="read_external_storage_message">We need your permission to read your media files so you can set your own alarm tone.</string>
+    <string name="grant">Grant</string>
+    <string name="permission_not_granted">We are sorry, we cannot access this feature until you grant us permission.</string>
+    <string name="permission_not_granted_title">Permission not granted</string>
+    <string name="notification_text_title">Notification text</string>
+    <string name="notification_text_summary">Configure alarm information displayed on the notification</string>
+    <string name="custom_notification_text">Custom notification text</string>
+    <string name="custom_notification_text_description" formatted="false">This is the text that will display on the notification. In your text, you may use the string ${c} to display the count down time and/or the string ${t} to display the alarm time.\nExample: Hello ${t}\nWould appear as: Hello 8:00 AM</string>
+    <string name="time_picker_color_title">Time picker color</string>
+    <string name="time_picker_color_summary">Select the color for the time picker.</string>
+    <string name="red">Red</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="deep_purple">Deep Purple</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Blue</string>
+    <string name="light_blue">Light Blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Teal</string>
+    <string name="green">Green</string>
+    <string name="light_green">Light Green</string>
+    <string name="orange">Orange</string>
+    <string name="deep_orange">Deep Orange</string>
+    <string name="brown">Brown</string>
+    <string name="grey">Grey</string>
+    <string name="blue_grey">Blue Grey</string>
+    <string name = "about"> About</string>
+    <string name = "settings_default_alarm_key"> सेटिंग अलार्म</string>
+    <string name = "settings_about_key"> जागो आय के बारे में</string>
+    <string name = "selected_media">% 1 $ s</string>
+    <string name = "volume_start_label"> प्रारंभ मात्रा:% 1 $ d %%</string>
+    <string name = "volume_end_label"> अंतिम खंड:% 1 $ d %%</string>
+    <string name = "volume_duration_label"> अवधि:% 1 $ d सेकंड</string>
+    <string name = "loading"> Loading</string>
+    <string name = "please_wait"> कृपया प्रतीक्षा करें</string>
+    <string name = "alarm_deleted"> अलार्म हटा दिया गया</string>
+    <string name = "undo"> UNDO</string>
+    <string name = "swipe_right_to_delete"> हाय वहाँ! इस कार्ड को राइट स्वाइप करें और देखें कि क्या होता है।</string>
+    <string name="material_intro_id_alarm_deletion">material_intro_id_119.104</string>
+
+    <!--  tiktok strings -->
+    <!--  Search tiktok strings -->
+    <string name = "search">Search</string>
+    <string name = "choose">Choose</string>
+    <string name = "notfound">हमें आपकी खोज नहीं मिली है</string>
+    <string name = "addmuser">आप TikTok से Share लिंक में कॉपी करके एक टिककर जोड़ सकते हैं और हमारे खोजकर्ता में लिंक पेस्ट कर सकते हैं</string>
+    <string name="addmusernickname">खोज क्षेत्र में एक उपनाम जोड़ें। \n उदाहरण के लिए: @wakeup.ly</string>
+
+    <string name = "tiktok_video">Tik Tok वीडियो</string>
+    <string name = "play_video">वीडियो प्ले करें</string>
+    <string name = "view">View</string>
+
+    <string name = "user_added_msg">टिकटोकर सही तरीके से जोड़ा गया</string>
+
+    <string name = "connection_needed">इंटरनेट की आवश्यकता है</string>
+
+    <string name = "premium_text">10 दिनों का प्रीमियम सक्रियण प्राप्त करें और विज्ञापन के बिना अपने अलार्म का आनंद लें। \ n शेयर टिक टोक अपने सामाजिक नेटवर्क पर नीचे दिए गए लिंक से जागो और आपका प्रीमियम खाता सक्रिय हो जाएगा</string>
+    <string name = "is_premium_text">आपके पास प्रीमियम उपयोगकर्ता के रूप में% d दिन हैं</string>
+
+    <!--  bottom menu strings -->
+    <string name="bmenu_home">होम</string>
+    <string name="bmenu_search">खोज</string>
+    <string name="bmenu_new_alarm">नया अलार्म</string>
+    <string name="bmenu_share">शेयर</string>
+    <string name="bmenu_premium">प्रीमियम</string>
+</resources>

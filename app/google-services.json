@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "267448421339",
+    "firebase_url": "https://wakeuply-6250a.firebaseio.com",
+    "project_id": "wakeuply-6250a",
+    "storage_bucket": "wakeuply-6250a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267448421339:android:0bb4a4ed289f0835",
+        "android_client_info": {
+          "package_name": "com.valbonet.wakeuplyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267448421339-q7m0tthv7m41fjuf7qd6lsvlj4ed299t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmd1J55Ge9zKUFIZEDkSPHLfTYG-IIB_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267448421339-q7m0tthv7m41fjuf7qd6lsvlj4ed299t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

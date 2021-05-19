@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Application -->
+	<color name="holo_blue_light">#ff33b5e5</color>
+	
+   <!-- Math Alarm Activity -->
+   <string name="app_name">Wakeup.ly</string>
+   <string name="title_activity_set_alarms">Alarm einstellen</string>
+   <string name="no_alarms">Keine Alarme</string>
+    
+   <string name="button_new">Nuevo</string>
+    
+   <!-- Menu -->
+   <string name="menu_item_new">Neuer Alarm</string>
+    <string name="menu_item_save">Speichern</string>
+    <string name="menu_item_delete">Abbrechen</string>
+    <string name="menu_item_rate">Bei Google Play bewerten</string>
+    <string name="menu_item_report">Fehler melden</string>
+
+	
+	<color name="title_background_color">#000000</color>
+
+   <string name="button_delete">Löschen</string>
+   <string name="ok">Annehmen</string>
+   <string name="cancel">Abbrechen</string>
+
+    <string name="userinfobutton">Weiter</string>
+
+
+   <!-- Settings panel -->
+   <string name="MON">L</string>
+   <string name="TUE">D</string>
+   <string name="WED">M</string>
+   <string name="THU">D</string>
+   <string name="FRI">V</string>
+   <string name="SAT">S</string>
+   <string name="SUN">S</string>
+
+
+   <!-- Rate this app -->
+
+   <string name="rta_dialog_title">Diese Anwendung auswerten</string>
+   <string name="rta_dialog_message">Wenn Ihnen diese Anwendung gefällt, nehmen Sie sich einen Moment Zeit, um sie auszuwerten. Es dauert nicht länger als eine Minute. Vielen Dank für Ihre Unterstützung!</string>
+   <string name="rta_dialog_ok">Evaluieren</string>
+   <string name="rta_dialog_cancel">Später</string>
+   <string name="rta_dialog_no">Nein</string>
+
+   <!-- Alarm on app -->
+   <string name="create_alarm">Alarm erstellen</string>
+   <string name="add_alarm">Alarm hinzufügen</string>
+    <string name="default_settings">Standardalarmoptionen</string>
+    <string name="app_settings">Einstellungen</string>
+    <string name="app_share">Freigeben</string>
+    <string name="app_premium">Premium</string>
+    <string name="app_share_msg">Möchten Sie jeden Tag mit Ihren Lieblings-Titok-Videos aufwachen? Versuchen Sie diese App: https://goo.gl/dFbD6c</string>
+    <string name="delete_all">Alles löschen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="time">Zeit</string>
+    <string name="label">Label</string>
+    <string name="alarm_label">Alarmtag</string>
+    <string name="none">Keine</string>
+    <string name="repeat">Wiederholen Sie</string>
+    <string name="scheduled_days">Termine einplanen</string>
+    <string name="tone">Tone</string>
+    <string name="alarm_tone">Alarmton</string>
+    <string name="snooze_minutes">Snooze (Minuten)</string>
+    <string name="vibrate">Vibrieren</string>
+    <string name="random">Zufällig</string>
+    <string name="enabled">Ein</string>
+    <string name="disabled">Aus</string>
+    <string name="alarm_volume">Alarmvolumen</string>
+    <string name="alarm_fade">Erhöhung der Alarmlautstärke</string>
+    <string name="fade_description">Von %1$d%% bis %2$d%% bis %3$d Sekunden.</string>
+    <string name="unknown_name">Unbekannter Name</string>
+    <string name="volume_start">Startvolumen (Prozent)</string>
+    <string name="volume_end">Endgültiges Volumen (Prozent)</string>
+    <string name="volume_duration">Alarmdauer steigt (Sekunden)</string>
+    <string name="delete">Löschen</string>
+    <string name="confirm_delete">Gelöscht bestätigen?</string>
+    <string name="snooze">POST</string>
+    <string name="dismiss">DISCARD</string>
+    <string name="close">Schließen</string>
+    <string name="plus_five">+ 5</string>
+    <string name="minus_five">- 5</string>
+    <string name="next_alarm">Nächster Alarm:</string>
+    <string name="no_pending_alarms">Keine Alarme anstehend</string>
+    <string name="alarm_has_occurred">Der Alarm ist aufgetreten</string>
+    <string name="day">% d day</string>
+    <string name="days">% d days</string>
+    <string name="hour">% d hour</string>
+    <string name="hours">% d hours</string>
+    <string name="minute">% d minute</string>
+    <string name="minutes">% d Minuten</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="dow_sun_short">Son</string>
+    <string name="dow_mon_short">Mon</string>
+    <string name="dow_tue_short">Die</string>
+    <string name="dow_wed_short">Mit</string>
+    <string name="dow_thu_short">Don</string>
+    <string name="dow_fri_short">Fre</string>
+    <string name="dow_sat_short">Sam</string>
+    <string name="dow_sun">Sonntag</string>
+    <string name="dow_mon">Montag</string>
+    <string name="dow_tue">Dienstag</string>
+    <string name="dow_wed">Mittwoch</string>
+    <string name="dow_thu">Donnerstag</string>
+    <string name="dow_fri">Freitag</string>
+    <string name="dow_sat">Samstag</string>
+    <string name="no_repeats">Keine Wiederholungen</string>
+    <string name="everyday">Täglich</string>
+    <string name="weekdays">Wochentage</string>
+    <string name="weekends">Weekends</string>
+    <string name="debug_mode_title">Debug-Modus</string>
+    <string name="debug_mode_summary">Aktivieren Sie mehrere Debug-Optionen</string>
+    <string name="debug_default">Standardmäßig</string>
+    <string name="debug_on">Ein</string>
+    <string name="debug_off">Aus</string>
+    <string name="notification_icon_title">Benachrichtigungssymbol</string>
+    <string name="notification_icon_on">Zeigt ein Symbol an, wenn Alarme anstehen.</string>
+    <string name="notification_icon_off">Zeigen Sie kein Symbol an, wenn Alarme anstehen.</string>
+    <string name="lock_screen_title">Text auf einem gesperrten Bildschirm</string>
+    <string name="lock_screen_summary">Legen Sie die Alarminformationen fest, die auf dem gesperrten Bildschirm angezeigt werden</string>
+    <string name="lock_screen_countdown">Countdown</string>
+    <string name="lock_screen_time">Alarmzeit</string>
+    <string name="lock_screen_both">Beide</string>
+    <string name="lock_screen_custom">Benutzerdefiniert</string>
+    <string name="lock_screen_nothing">Nichts</string>
+    <string name="internal">Internal</string>
+    <string name="artists">Interpreten</string>
+    <string name="albums">Alben</string>
+    <string name="songs">Songs</string>
+    <string name="selected">Ausgewählt:</string>
+    <string name="custom_lock_screen_text">Benutzerdefinierter Text</string>
+   <string name="custom_lock_screen_description" formatted="false">This is the text that will display on the lock screen.  In your text, you may use the string %c to display the count down time and/or the string %t to display the alarm time.\nExample: Hello %t\nWould appear as: Hello 8:00 am\nIf the \'Persistent\' box is checked.  The string will remain on the lock screen even when no alarm is scheduled.</string>
+   <string name="custom_lock_screen_persistent">Persistent</string>
+    <string name="time_out_title">Herunterfahren des Alarms</string>
+    <string name="time_out_error">WARNUNG: Dieser Alarm ist abgelaufen und wurde deaktiviert.</string>
+    <string name="time_out_summary">Der Alarm wird nach diesen Minuten automatisch gelöscht.</string>
+    <string name="app_theme_title">Aussehen</string>
+    <string name="app_theme_summary">Ändern Sie die Farben</string>
+    <string name="themes">Designs</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="dark_light">Dunkel und hell</string>
+    <string name="read_external_storage_title">Dateien lesen</string>
+    <string name="read_external_storage_message">Wir benötigen Ihre Erlaubnis, um die Audiodateien lesen zu können, damit Sie Ihre eigenen Alarmtöne einstellen können.</string>
+    <string name="grant">Grant</string>
+    <string name="permission_not_granted">Leider können wir nicht auf diese Funktionalität zugreifen, bis Sie uns die Erlaubnis erteilt haben.</string>
+    <string name="permission_not_granted_title">Ohne Erlaubnis</string>
+    <string name="notification_text_title">Text in Benachrichtigung</string>
+    <string name="notification_text_summary">Konfigurieren Sie die Alarminformationen, die in der Benachrichtigung angezeigt werden.</string>
+    <string name="custom_notification_text">Text in benutzerdefinierter Benachrichtigung</string>
+    <string name="custom_notification_text_description" formatted = "false">Dies ist der Text, der in der Benachrichtigung angezeigt wird. Im Text können Sie die Zeichenfolge $ {c} verwenden, um den Countdown anzuzeigen, und / oder die Zeichenfolge $ {t}, um die Weckzeit anzuzeigen. \ NBeispiel: Hallo $ {t} \ nEs wird wie folgt angezeigt: Hallo 8:00 AM</string>
+    <string name="time_picker_color_title">Zeitauswahlfarbe</string>
+    <string name="time_picker_color_summary">Wählen Sie die Farbe der Zeitauswahl aus.</string>
+    <string name="red">Rot</string>
+    <string name="pink">Rosa</string>
+    <string name="purple">Lila</string>
+    <string name="deep_purple">Dunkelviolett</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Blau</string>
+    <string name="light_blue">Hellblau</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Blaugrün</string>
+    <string name="green">Grün</string>
+    <string name="light_green">Hellgrün</string>
+    <string name="orange">Orange</string>
+    <string name="deep_orange">Dunkelorange</string>
+    <string name="brown">Braun</string>
+    <string name="grey">Grau</string>
+    <string name="blue_grey">Blaugrau</string>
+    <string name="about">About</string>
+    <string name="volume_end_label">Endgültiges Volume: %1$d%%</string>
+    <string name="volume_duration_label">Dauer: %1$d Sekunden</string>
+    <string name="loading">Laden</string>
+    <string name="please_wait">Bitte warten Sie</string>
+    <string name="alarm_deleted">Alarm entfernt</string>
+    <string name="undo">UNDO</string>
+    <string name="swipe_right_to_delete">Hallo! Schieben Sie dieses Element nach rechts und sehen Sie, was passiert.</string>
+
+   <!--  tiktok strings -->
+   <!--  Search tiktok strings -->
+   <string name="search">Suche</string>
+   <string name="choose">auswählen</string>
+   <string name="notfound">Wir haben Ihre Suche nicht gefunden.</string>
+   <string name="addmuser">Sie können einen Tiktoker hinzufügen, indem Sie mit Share-Profil aus TikTok kopieren und den Link in unsere Suchmaschine einfügen</string>
+   <string name="addmusernickname">Fügen Sie dem Suchfeld einen Spitznamen hinzu.\n Zum Beispiel: @wakeup.ly</string>
+
+   <string name="tiktok_video">Tik Tok-Video</string>
+   <string name="play_video">Video abspielen</string>
+   <string name="view">Ansicht</string>
+
+   <string name="user_added_msg">Tiktoker hinzugefügt</string>
+
+   <string name="connection_needed">Sie haben keine Internetverbindung</string>
+
+   <string name="premium_text">Erhalten Sie 10 Tage Premium-Aktivierung und genießen Sie Ihre Alarme ohne Werbung. \n Teilen Sie Wakeup.ly Sie über Ihre Links unten auf, und Ihr Premium-Konto wird aktiviert</string>
+   <string name="is_premium_text">Sie haben noch %d tage von Ihrem Premium-Konto übrig</string>
+
+   <!--  bottom menu strings -->
+   <string name="bmenu_home">Zuhause</string>
+   <string name="bmenu_search">Suche</string>
+   <string name="bmenu_new_alarm">Neuer alarm</string>
+   <string name="bmenu_share">Aktie</string>
+   <string name="bmenu_premium">Prämie</string>
+    <string name="settings_about_key">About Wakeup.ly</string>
+</resources>

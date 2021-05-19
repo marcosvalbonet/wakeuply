@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="false">
+        <bitmap android:src="@drawable/circle_32_grey"
+            android:gravity="center_vertical|center_horizontal" />
+    </item>
+</layer-list>

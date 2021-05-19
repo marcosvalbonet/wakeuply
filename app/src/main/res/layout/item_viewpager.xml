@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <VideoView
+        android:id="@+id/myVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/text_view_account_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text =""
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/colorStoryUserName"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+           />
+
+        <TextView
+            android:id="@+id/text_view_video_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text =""
+            android:textSize="14sp"
+            android:textColor="@color/colorStoryDescription"
+            android:lines="5"
+            android:maxLines="5"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/text_view_account_handle"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_view_music_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/text_view_video_description"
+            android:src="@drawable/ic_music_track_icon"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/text_view_music_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text =""
+            android:textSize="14sp"
+            android:textColor="@color/colorAudioTitle"
+            android:lines="1"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/text_view_video_description"
+            android:layout_toEndOf="@+id/image_view_music_icon"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/location_image_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view_profile_pic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/label"
+                android:layout_below="@+id/image_view_profile_pic"
+                android:text=" "
+                android:gravity="center"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/share"
+                android:layout_below="@+id/label"
+                android:src="@drawable/ic_share_icon"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_below="@+id/share"
+                android:text="Share"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/alarm_view"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/name"
+                android:src="@drawable/ic_alarm_icon4"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="6dp"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/alarm_view_create_option"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_follow_avatar_bottom_icon"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:id="@+id/Alarm_text"
+                android:layout_below="@+id/alarm_view_create_option"
+                android:text=" "
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

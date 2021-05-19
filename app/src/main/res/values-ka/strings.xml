@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+
+    <!-- Math Alarm Activity -->
+    <string name="app_name">Wakeup.ly</string>
+    <string name = "title_activity_set_alarms">სიგნალის დაყენება</string>
+     <string name = "no_alarms">სიგნალი არ არის მითითებული</string>
+
+     <string name = "button_new">ახალი</string>
+
+    <!-- Menu -->
+
+    <string name = "menu_item_new">ახალი განგაშის</string>
+    <string name = "menu_item_save">შენახვა</string>
+    <string name = "menu_item_delete">გაუქმება</string>
+    <string name = "menu_item_userguide">მომხმარებლის სახელმძღვანელო</string>
+    <string name = "menu_item_awards">ჯილდოები</string>
+    <string name = "menu_item_gains">მოგება</string>
+    <string name = "menu_item_last_spot">ბოლო ადგილზე</string>
+    <string name = "menu_item_rate">შეაფასეთ Google Play</string>
+    <string name = "menu_item_website">საიტი</string>
+    <string name = "menu_item_report">შეცდომის შესახებ</string>
+    <string name = "menu_item_session_out">სხდომის დახურვა</string>
+
+    <!-- Alert -->
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="decimal_button_text">,</string>
+    <string name="clear_button_text">Clear</string>
+    <string name="minus_button_text">-</string>
+
+
+    <color name="title_background_color">#000000</color>
+
+    <string name = "button_delete">წაშლა</string>
+     <string name = "ok">OK</string>
+     <string name = "cancel">გაუქმება</string>
+
+     <string name = "userinfobutton">Siguiente</string>
+
+     <string name = "alarm_with_ads">სიგნალი რეკლამებით</string>
+     <string name = "alarm_with_ads_message">შეგიძლიათ იხილოთ ქვემოთ მოცემული რეკლამა</string>
+     <string name = "alarm_without_ads">სიგნალი რეკლამის გარეშე</string>
+     <string name = "alarm_without_ads_message">ვიმედოვნებთ, რომ უფრო მეტი რეკლამა მალე დაგჭირდებათ</string>
+     <string name = "publicity">საჯაროობა</string>
+
+
+    <!-- Settings panel -->
+    <string name="MON">M</string>
+    <string name="TUE">T</string>
+    <string name="WED">W</string>
+    <string name="THU">T</string>
+    <string name="FRI">F</string>
+    <string name="SAT">S</string>
+    <string name="SUN">S</string>
+
+    <!-- Rate this app -->
+    <string name = "rta_dialog_title">შეაფასეთ ეს აპლიკაცია</string>
+     <string name = "rta_dialog_message">თუ სარგებლობდით ამ აპლიკაციის გამოყენებით, გაითვალისწინებდით, რომ შეაფასებდით მომენტში? ეს მოიგო ერთი წუთით მეტი. გმადლობთ მხარდაჭერისთვის!</string>
+     <string name = "rta_dialog_ok">შეაფასეთ ახლა</string>
+     <string name = "rta_dialog_cancel">მოგვიანებით</string>
+     <string name = "rta_dialog_no">არა, მადლობა</string>
+
+
+    <!-- Alarm on app -->
+    <string name = "create_alarm">შექმნა სიგნალი</string>
+    <string name = "add_alarm">განგაშის დამატება</string>
+    <string name = "default_settings">ნაგულისხმები სიგნალიზაციის პარამეტრები</string>
+    <string name = "app_settings">პარამეტრები</string>
+    <string name = "app_share">გაზიარება</string>
+    <string name = "app_premium">პრემიუმი</string>
+    <string name = "app_share_msg">გსურთ გაიღვიძოთ თქვენი საყვარელი TikTok ვიდეოები ყოველდღე? შეამოწმე ეს აპლიკაცია: https://goo.gl/dFbD6c</string>
+    <string name = "delete_all">წაშლა ყველა</string>
+    <string name = "settings">პარამეტრები</string>
+    <string name = "time">დრო</string>
+    <string name = "label">ლეიბლი</string>
+    <string name = "alarm_label">სიგნალიზაცია</string>
+    <string name = "none">არცერთი</string>
+    <string name = "repeat">გამეორება</string>
+    <string name = "scheduled_days">დაგეგმილი დღეები</string>
+    <string name="tone">ტონი</string>
+    <string name = "alarm_tone">მაღვიძარა ტონი</string>
+    <string name = "snooze_minutes">Snooze (წუთი)</string>
+    <string name = "vibrate">ვიბრაცია</string>
+    <string name = "enabled">ჩართულია</string>
+    <string name = "disabled">შეზღუდული შესაძლებლობების მქონე</string>
+    <string name = "alarm_volume">სიგნალიზაცია</string>
+    <string name = "alarm_fade">სიგნალიზაცია</string>
+    <string name = "fade_description">% 1 $ d% დან% 2 $ d %%%% 3 $ d წამში.</string>
+    <string name = "unknown_name">უცნობი სახელი</string>
+    <string name = "volume_start">დაწყება მოცულობა (პროცენტი)</string>
+    <string name = "volume_end">ბოლოს მოცულობა (პროცენტი)</string>
+    <string name = "volume_duration">Fade ხანგრძლივობა (წამი)</string>
+
+    <string name ="delete">წაშლა</string>
+    <string name ="confirm_delete">დაადასტურეთ წაშლა?</string>
+    <string name="snooze">SNOOZE</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="close">Close</string>
+    <string name="plus_five">+5</string>
+    <string name="minus_five">-5</string>
+    <string name="next_alarm">Next alarm:</string>
+    <string name="no_pending_alarms">No pending alarms</string>
+    <string name="alarm_has_occurred">Alarm has occurred</string>
+    <string name="day">%d day</string>
+    <string name="days">%d days</string>
+    <string name="hour">%d hour</string>
+    <string name="hours">%d hours</string>
+    <string name="minute">%d minute</string>
+    <string name="minutes">%d minutes</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="dow_sun_short">Su</string>
+    <string name="dow_mon_short">Mo</string>
+    <string name="dow_tue_short">Tu</string>
+    <string name="dow_wed_short">We</string>
+    <string name="dow_thu_short">Th</string>
+    <string name="dow_fri_short">Fr</string>
+    <string name="dow_sat_short">Sa</string>
+    <string name = "dow_sun">კვირა</string>
+     <string name = "dow_mon">ორშაბათი</string>
+     <string name = "dow_tue">სამშაბათი</string>
+     <string name = "dow_wed">ოთხშაბათი</string>
+     <string name = "dow_thu">ხუთშაბათი</string>
+     <string name = "dow_fri">პარასკევი</string>
+     <string name = "dow_sat">შაბათი</string>
+    <string name="no_repeats">No repeats</string>
+    <string name="everyday">Every day</string>
+    <string name="weekdays">Weekdays</string>
+    <string name="weekends">Weekends</string>
+    <string name="debug_mode_title">Debug Mode</string>
+    <string name="debug_mode_summary">Turn on various debugging features</string>
+    <string name="debug_default">Default</string>
+    <string name="debug_on">On</string>
+    <string name="debug_off">Off</string>
+    <string name="notification_icon_title">Display notification icon</string>
+    <string name="notification_icon_on">Display an icon when there are pending alarms</string>
+    <string name="notification_icon_off">Do not display an icon when there are pending alarms</string>
+    <string name="lock_screen_title">Lock screen text</string>
+    <string name="lock_screen_summary">Configure alarm information displayed on the lock screen</string>
+    <string name="lock_screen_countdown">Countdown</string>
+    <string name="lock_screen_time">Alarm time</string>
+    <string name="lock_screen_both">Both</string>
+    <string name="lock_screen_custom">Custom</string>
+    <string name="lock_screen_nothing">Nothing</string>
+    <string name="internal">Internal</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="selected">Selected:</string>
+    <string name="custom_lock_screen_text">Custom lock screen text</string>
+    <string name="custom_lock_screen_description" formatted="false">This is the text that will display on the lock screen.  In your text, you may use the string %c to display the count down time and/or the string %t to display the alarm time.\nExample: Hello %t\nWould appear as: Hello 8:00 am\nIf the \'Persistent\' box is checked.  The string will remain on the lock screen even when no alarm is scheduled.</string>
+    <string name="custom_lock_screen_persistent">Persistent</string>
+    <string name="time_out_title">Alarm time out</string>
+    <string name="time_out_error">WARNING: This alarm has timed out waiting for an acknowledgment.</string>
+    <string name="time_out_summary">A firing alarm will be automatically dismissed after this many minutes.</string>
+    <string name="pending_alarms">Pending Alarms</string>
+    <string name="test_alarm">Test Alarm</string>
+    <string name="app_theme_title">Appearance</string>
+    <string name="app_theme_summary">Change the app colors</string>
+    <string name="themes">Themes</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="dark_light">Dark Light</string>
+    <string name="read_external_storage_title">Read files</string>
+    <string name="read_external_storage_message">We need your permission to read your media files so you can set your own alarm tone.</string>
+    <string name="grant">Grant</string>
+    <string name="permission_not_granted">We are sorry, we cannot access this feature until you grant us permission.</string>
+    <string name="permission_not_granted_title">Permission not granted</string>
+    <string name="notification_text_title">Notification text</string>
+    <string name="notification_text_summary">Configure alarm information displayed on the notification</string>
+    <string name="custom_notification_text">Custom notification text</string>
+    <string name="custom_notification_text_description" formatted="false">This is the text that will display on the notification. In your text, you may use the string ${c} to display the count down time and/or the string ${t} to display the alarm time.\nExample: Hello ${t}\nWould appear as: Hello 8:00 AM</string>
+    <string name="time_picker_color_title">Time picker color</string>
+    <string name="time_picker_color_summary">Select the color for the time picker.</string>
+    <string name="red">Red</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="deep_purple">Deep Purple</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Blue</string>
+    <string name="light_blue">Light Blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Teal</string>
+    <string name="green">Green</string>
+    <string name="light_green">Light Green</string>
+    <string name="orange">Orange</string>
+    <string name="deep_orange">Deep Orange</string>
+    <string name="brown">Brown</string>
+    <string name="grey">Grey</string>
+    <string name="blue_grey">Blue Grey</string>
+    <string name="about">About</string>
+    <string name="settings_default_alarm_key">Setting alarm</string>
+    <string name="settings_about_key">About Wakeup.ly</string>
+    <string name="selected_media">&#160;%1$s</string>
+    <string name="volume_start_label">Start volume: %1$d%%</string>
+    <string name="volume_end_label">End volume: %1$d%%</string>
+    <string name="volume_duration_label">Duration: %1$d seconds</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait</string>
+    <string name="alarm_deleted">Alarm deleted</string>
+    <string name="undo">UNDO</string>
+    <string name="swipe_right_to_delete">Hi There! Swipe right this card and see what happens.</string>
+    <string name="material_intro_id_alarm_deletion">material_intro_id_119.104</string>
+
+    <!--  tiktok strings -->
+    <!--  Search tiktok strings -->
+    <string name="search">ძიება</string>
+     <string name="choose">აირჩიეთ</string>
+     <string name="notfound">თქვენი ძებნის არ არის</string>
+     <string name="addmuser">თქვენ შეგიძლიათ დაამატოთ tiktoker TikTok- დან კოპირების ბმულიდან კოპირება და ჩასვით ბმული ჩვენს საძიებელში</string>
+     <string name="addmusernickname">ძიების ველში დაამატეთ მეტსახელი. \n მაგალითად: @wakeup.ly</string>
+
+     <string name="tiktok_video">Tik Tok ვიდეო</string>
+     <string name="play_video">ვიდეო</string>
+     <string name="view">ნახვა</string>
+
+     <string name="user_added_msg">Tiktoker დამატებული სწორად</string>
+
+     <string name="connection_needed">ინტერნეტი საჭიროა</string>
+
+     <string name="premium_text">მიიღე 10 დღის პრემიუმ გააქტიურება და სარგებლობენ თქვენი სიგნალიზაციის გარეშე რეკლამის გარეშე. \ n წილი Tik Tok თქვენი სოციალური ქსელების გააქტიურება ქვემოთ მოყვანილი ბმულებიდან და თქვენი პრემიუმ ანგარიში გააქტიურდება</string>
+     <string name="is_premium_text">თქვენ გაქვთ% d დღეები, როგორც პრემიუმ მომხმარებელი</string>
+
+    <!--  bottom menu strings -->
+    <string name="bmenu_home">მთავარი</string>
+    <string name="bmenu_search">ძიება</string>
+    <string name="bmenu_new_alarm">სიგნალიზაცია</string>
+    <string name="bmenu_share">გაზიარება</string>
+    <string name="bmenu_premium">პრემიუმი</string>
+</resources>

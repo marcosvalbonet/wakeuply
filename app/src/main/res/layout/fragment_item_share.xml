@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.navigationmenu.ItemShareFragment">
+
+    <!--content to hide/show -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sharePanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/shareWakeuply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/titleShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_view_white"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:text="Compartir en"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/card_view_white"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:padding="0dp">
+
+                <Button
+                    android:id="@+id/facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/facebook_ico"
+                    android:drawablePadding="5dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="25dp"
+                    android:tag="facebook"
+                    android:text="Facebook"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_margin="0dp"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/twitter_ico"
+                    android:drawablePadding="5dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="25dp"
+                    android:tag="twitter"
+                    android:text="Twitter"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/instagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/instagram_ico"
+                    android:drawablePadding="5dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="25dp"
+                    android:tag="instagram"
+                    android:text="Instagram"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center|center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/share_ico"
+                    android:drawablePadding="5dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="25dp"
+                    android:tag="share"
+                    android:text="Otros"
+                    android:textAllCaps="false" />
+
+            </TableRow>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

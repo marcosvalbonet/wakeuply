@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?android:selectableItemBackground"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+      <ImageView
+          android:id="@+id/muserImage"
+          android:layout_width="68dp"
+          android:layout_height="fill_parent"
+          android:layout_below="@+id/days"
+          android:gravity="center_vertical"
+          android:paddingLeft="15dp"
+          android:paddingTop="0dp"
+          android:paddingBottom="0dp"
+          android:src="@drawable/wakeuply64"
+          android:tag="defaultImage" />
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_weight="1"
+                  android:paddingRight="24dp"
+                  android:paddingLeft="15dp"
+                  android:paddingStart="15dp"
+                  android:paddingEnd="24dp"
+                  android:paddingTop="15dp"
+                  android:paddingBottom="15dp"
+                  android:focusable="false"
+                  android:gravity="center_vertical"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false">
+
+            <TextView
+                android:id="@+id/alarm_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="top|start"
+                android:singleLine="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/alarm_label"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="top|end"
+                android:maxEms="6"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+              <TextView android:id="@+id/muserVideo"
+                  android:focusable="false"
+                  android:gravity="top|start"
+                  android:singleLine="true"
+                  android:layout_weight="1"
+                  android:textStyle="italic"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:textSize="12sp"
+                  android:visibility="visible"/>
+
+
+              <TextView android:id="@+id/next_alarm"
+                  android:focusable="false"
+                  android:gravity="top|start"
+                  android:singleLine="true"
+                  android:layout_weight="1"
+                  android:textStyle="italic"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:visibility="gone"/>
+        </LinearLayout>
+        <LinearLayout android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/alarm_repeat"
+                android:focusable="false"
+                android:gravity="top|end"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/alarm_enabled"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" />
+
+  </LinearLayout>
+
+
+  <!--content to hide/show -->
+  <androidx.cardview.widget.CardView
+      android:id="@+id/alarm_settings"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="90dp"
+      android:visibility="gone">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="16dp"
+          android:paddingTop="10dp"
+          android:paddingRight="16dp"
+          android:paddingBottom="16dp">
+
+          <TableRow
+              android:id="@+id/days"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_margin="0dp"
+              android:padding="0dp">
+
+              <ToggleButton
+                  android:id="@+id/monday"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center|center_horizontal"
+                  android:layout_marginTop="0dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/day_toggle_uncheched"
+                  android:drawablePadding="10px"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:tag="MON"
+                  android:text="@string/MON"
+                  android:textAlignment="center"
+                  android:textAllCaps="false"
+                  android:textColor="@color/card_view_white"
+                  android:textOff="@string/MON"
+                  android:textOn="@string/MON"
+                  android:translationX="0dp" />
+
+              <ToggleButton
+                  android:id="@+id/tuesday"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_gravity="center|center_horizontal"
+                  android:layout_weight="1"
+                  android:background="@drawable/day_toggle_uncheched"
+                  android:drawablePadding="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:tag="TUE"
+                  android:text="@string/TUE"
+                  android:textAlignment="center"
+                  android:textAllCaps="false"
+                  android:textColor="@color/card_view_white"
+                  android:textOff="@string/TUE"
+                  android:textOn="@string/TUE" />
+
+              <ToggleButton
+                  android:id="@+id/wednesday"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center|center_horizontal"
+                  android:layout_weight="1"
+                  android:background="@drawable/day_toggle_uncheched"
+                  android:drawablePadding="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:tag="WED"
+                  android:text="@string/WED"
+                  android:textAlignment="center"
+                  android:textAllCaps="true"
+                  android:textColor="@color/card_view_white"
+                  android:textOff="@string/WED"
+                  android:textOn="@string/WED" />
+
+              <ToggleButton
+                  android:id="@+id/thursday"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center|center_horizontal"
+                  android:layout_weight="1"
+                  android:background="@drawable/day_toggle_uncheched"
+                  android:drawablePadding="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:tag="THU"
+                  android:text="@string/THU"
+                  android:textAlignment="center"
+                  android:textAllCaps="false"
+                  android:textColor="@color/card_view_white"
+                  android:textOff="@string/THU"
+                  android:textOn="@string/THU" />
+
+              <ToggleButton
+                  android:id="@+id/friday"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_gravity="center|center_horizontal"
+                  android:layout_weight="1"
+                  android:background="@drawable/day_toggle_uncheched"
+                  android:drawablePadding="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:tag="FRI"
+                  android:text="@string/FRI"
+                  android:textAlignment="center"
+                  android:textAllCaps="false"
+                  android:textColor="@color/card_view_white"
+                  android:textOff="@string/FRI"
+                  android:textOn="@string/FRI" />
+
+              <ToggleButton
+                  android:id="@+id/saturday"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_gravity="center|center_horizontal"
+                  android:layout_weight="1"
+                  android:background="@drawable/day_toggle_uncheched"
+                  android:drawablePadding="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:tag="SAT"
+                  android:text="@string/SAT"
+                  android:textAlignment="center"
+                  android:textAllCaps="false"
+                  android:textColor="@color/card_view_white"
+                  android:textOff="@string/SAT"
+                  android:textOn="@string/SAT" />
+
+              <ToggleButton
+                  android:id="@+id/sunday"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_gravity="center|center_horizontal"
+                  android:layout_weight="1"
+                  android:background="@drawable/day_toggle_uncheched"
+                  android:drawablePadding="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:tag="SUN"
+                  android:textAlignment="center"
+                  android:textAllCaps="false"
+                  android:textColor="@color/card_view_white"
+                  android:textOff="@string/SUN"
+                  android:textOn="@string/SUN" />
+
+          </TableRow>
+
+          <ImageView
+              android:id="@+id/add_label"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/days"
+              android:paddingLeft="8dp"
+              android:paddingTop="4dp"
+              android:paddingBottom="8dp"
+              android:src="@drawable/add_label_button"
+              android:tag="@+id/label_name" />
+
+          <TextView
+              android:id="@+id/label_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/days"
+              android:layout_marginLeft="8dp"
+              android:layout_toRightOf="@+id/add_label"
+              android:paddingTop="2dp"
+              android:paddingBottom="8dp"
+              android:tag="@+id/label_name"
+              android:hint="@string/label"
+              android:text="@string/label" />
+
+          <CheckBox
+              android:id="@+id/vibration"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/label_name"
+              android:paddingLeft="0dp"
+              android:tag="@+id/vibration"
+              android:text="@string/vibrate"
+              android:visibility="gone"/>
+
+          <CheckBox
+              android:id="@+id/random"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/vibration"
+              android:paddingLeft="0dp"
+              android:tag="@+id/random"
+              android:text="@string/random" />
+
+          <ImageView
+              android:id="@+id/alarm"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/random"
+              android:paddingLeft="8dp"
+              android:paddingTop="10dp"
+              android:src="@drawable/play16"
+              android:tag="@+id/myVideo" />
+
+          <TextView
+              android:id="@+id/tiktokVideo"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/alarm"
+              android:layout_marginLeft="8dp"
+              android:layout_marginTop="-18dp"
+              android:layout_toRightOf="@+id/alarm"
+              android:tag="@+id/myVideo"
+              android:text="@string/tiktok_video" />
+
+
+          <ImageView
+              android:id="@+id/delete_alarm"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/tiktokVideo"
+              android:layout_marginTop="10dp"
+              android:adjustViewBounds="true"
+              android:maxWidth="30dp"
+              android:maxHeight="30dp"
+              android:paddingLeft="6dp"
+              android:paddingTop="10dp"
+              android:scaleType="fitCenter"
+              android:src="@drawable/ic_menu_delete_light"
+              android:tag="@+id/trash"
+              android:visibility="gone"/>
+
+          <TextView
+              android:id="@+id/action_delete_alarm"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/tiktokVideo"
+              android:layout_marginTop="10dp"
+              android:layout_toRightOf="@+id/delete_alarm"
+              android:paddingLeft="7dp"
+              android:paddingTop="11dp"
+              android:text="@string/delete"
+              android:visibility="gone"/>
+
+          <ImageView
+              android:id="@+id/hide"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/tiktokVideo"
+              android:layout_alignParentRight="true"
+              android:layout_gravity="right"
+              android:layout_marginTop="-30dp"
+              android:layout_marginRight="16dp"
+              android:padding="10dp"
+              android:src="@drawable/arrow_pointing_up" />
+
+      </RelativeLayout>
+
+  </androidx.cardview.widget.CardView>
+
+
+</androidx.cardview.widget.CardView>
+

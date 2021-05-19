@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/fg_muserfound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:visibility="visible">
+
+        <ListView
+            android:id="@+id/fg_leads_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:background="@color/browser_actions_bg_grey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fg_notfound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="100dp"
+        android:paddingRight="40dp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/browser_actions_bg_grey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
+            android:text="@string/notfound"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addmusernickname"
+            android:textAlignment="center" />
+
+        <!--        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="269dp"
+            android:contentDescription="@string/addmusernickname"
+            android:src="@drawable/musershared556"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/youtube"
+            android:drawablePadding="10dp"
+            android:text="Tutorial"
+            android:layout_gravity="center_vertical|center_horizontal" />
+        -->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

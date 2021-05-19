@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/b_menu_home"
+        android:title="@string/bmenu_home"/>
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/b_menu_search"
+        android:title="@string/bmenu_search"/>
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@drawable/b_menu_createalarm"
+        android:title="@string/bmenu_new_alarm"
+        />
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@drawable/b_menu_share"
+        android:title="@string/bmenu_share"/>
+    <item
+        android:id="@+id/action_item5"
+        android:icon="@drawable/b_menu_star"
+        android:title="@string/bmenu_premium"/>
+</menu>

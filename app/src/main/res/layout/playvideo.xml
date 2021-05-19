@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/video_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000" >
+
+        <VideoView
+            android:id="@+id/myVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_cyclic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:minWidth="50dp"
+            android:minHeight="50dp"
+            android:visibility="visible" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/userImage"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <Button
+            android:id="@+id/add_videoAlarm"
+            android:tag="add_videoAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="5dp"
+            android:text="@string/choose" />
+
+    </FrameLayout>
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/webViewer"
+            android:layerType="software"
+            android:visibility="gone">
+        </WebView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

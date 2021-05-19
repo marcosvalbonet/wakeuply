@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <VideoView
+        android:id="@+id/myVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/bannerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text= "@string/alarm_with_ads"
+        android:textStyle="bold"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/bannerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text = "Publicidad"
+        android:textSize="12dp"/>
+
+
+    <DigitalClock
+        android:id="@+id/analogClock1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="56dp" />
+
+    <LinearLayout android:id="@+id/LinearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/snooze"
+            android:tag="snooze"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Posponer" />
+
+        <Button
+            android:id="@+id/closeAlarm"
+            android:tag="closeAlarm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Descartar" />
+
+    </LinearLayout>
+         
+</LinearLayout>
